@@ -1,0 +1,33 @@
+# ninja log v5
+1	1000	1696862346092884448	HW2_autogen/timestamp	fe012ec2daf93c09
+1	1000	1696862346092884448	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+1	1000	1696862346092884448	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+1	1000	1696862346092884448	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+1002	2807	1696862347909796692	CMakeFiles/HW2.dir/Users/gary/US/virginia_tech/courses/ECE_4574/assignments/HW1/flipcoder.cpp.o	477e5c026cad9af9
+1002	2813	1696862347910067231	CMakeFiles/HW2.dir/Users/gary/US/virginia_tech/courses/ECE_4574/assignments/HW1/invertcasecoder.cpp.o	4a7e8494b8495be8
+1002	2815	1696862347909196740	CMakeFiles/HW2.dir/Users/gary/US/virginia_tech/courses/ECE_4574/assignments/HW1/otpcoder.cpp.o	e003a6e611600848
+17	878	1696862483503443000	HW2_autogen/timestamp	fe012ec2daf93c09
+17	878	1696862483503443000	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+17	878	1696862483503443000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+17	878	1696862483503443000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+17	842	1696862496072786000	HW2_autogen/timestamp	fe012ec2daf93c09
+17	842	1696862496072786000	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+17	842	1696862496072786000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+17	842	1696862496072786000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+22	973	1696862791121987000	HW2_autogen/timestamp	fe012ec2daf93c09
+22	973	1696862791121987000	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+22	973	1696862791121987000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+22	973	1696862791121987000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+974	3661	1696862793834732335	CMakeFiles/HW2.dir/HW2_autogen/mocs_compilation.cpp.o	913aac78f1d5fa07
+22	132	1696862843701304827	HW2_autogen/timestamp	fe012ec2daf93c09
+22	132	1696862843701304827	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+22	132	1696862843701304827	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+22	132	1696862843701304827	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+20	113	1696862852365605193	HW2_autogen/timestamp	fe012ec2daf93c09
+20	113	1696862852365605193	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+20	113	1696862852365605193	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+20	113	1696862852365605193	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+29	126	1696863537688299259	HW2_autogen/timestamp	fe012ec2daf93c09
+29	126	1696863537688299259	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+29	126	1696863537688299259	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+29	126	1696863537688299259	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09

@@ -1,0 +1,191 @@
+public interface ControlUnit {
+    // Fetch an instruction from memory
+    void fetchInstruction();
+
+    // Decode the fetched instruction
+    void decodeInstruction();
+
+    // Execute the decoded instruction
+    void executeInstruction();
+
+    // Manage the flow of instructions and data
+    void controlFlow();
+
+    // Reset the control unit
+    void reset();
+}
+
+public interface ALU {
+    // Perform addition operation
+    int add(int operand1, int operand2);
+
+    // Perform subtraction operation
+    int subtract(int operand1, int operand2);
+
+    // Perform multiplication operation
+    int multiply(int operand1, int operand2);
+
+    // Perform division operation
+    int divide(int dividend, int divisor);
+
+    // Perform logical AND operation
+    int logicalAnd(int operand1, int operand2);
+
+    // Perform logical OR operation
+    int logicalOr(int operand1, int operand2);
+
+    // Perform logical NOT operation
+    int logicalNot(int operand);
+
+    // Reset the ALU
+    void reset();
+}
+
+public interface Register {
+    // Read the value stored in the register
+    int read();
+
+    // Write a value into the register
+    void write(int value);
+
+    // Reset the register to a default value
+    void reset();
+}
+
+public interface CacheMemory {
+    // Read data from the cache
+    byte[] read(int address);
+
+    // Write data to the cache
+    void write(int address, byte[] data);
+
+    // Check if data exists in the cache
+    boolean contains(int address);
+
+    // Remove data from the cache
+    void evict(int address);
+
+    // Clear the entire cache
+    void clearCache();
+}
+
+public interface Clock {
+    // Start the clock
+    void start();
+
+    // Stop the clock
+    void stop();
+
+    // Get the current time or tick count
+    long getTickCount();
+
+    // Set the clock speed (in Hertz)
+    void setSpeed(long hertz);
+
+    // Reset the clock
+    void reset();
+}
+
+public interface DataBus {
+    // Read data from the bus
+    byte readData(int address);
+
+    // Write data to the bus
+    void writeData(int address, byte data);
+}
+
+public interface AddressBus {
+    // Read a memory address from the bus
+    int readAddress();
+
+    // Write a memory address to the bus
+    void writeAddress(int address);
+}
+
+public interface InstructionSet {
+    // Arithmetic operations
+    void add(int destReg, int srcReg1, int srcReg2);
+    void subtract(int destReg, int srcReg1, int srcReg2);
+    void multiply(int destReg, int srcReg1, int srcReg2);
+    void divide(int destReg, int srcReg1, int srcReg2);
+
+    // Logical operations
+    void and(int destReg, int srcReg1, int srcReg2);
+    void or(int destReg, int srcReg1, int srcReg2);
+    void not(int destReg, int srcReg);
+
+    // Data movement operations
+    void load(int destReg, int memoryAddress);
+    void store(int srcReg, int memoryAddress);
+    
+    // Control operations
+    void jump(int targetAddress);
+    void branchIfEqual(int srcReg1, int srcReg2, int targetAddress);
+    void branchIfNotEqual(int srcReg1, int srcReg2, int targetAddress);
+    void halt();
+
+    // Reset the instruction set
+    void reset();
+}
+
+public interface ControlLines {
+    // Set the control line for ALU operation
+    void setALUControl(int controlCode);
+
+    // Set the control line for register operations
+    void setRegisterControl(int controlCode);
+
+    // Set the control line for memory operations
+    void setMemoryControl(int controlCode);
+
+    // Set the control line for branching or control flow operations
+    void setControlFlowControl(int controlCode);
+
+    // Reset all control lines to their default values
+    void reset();
+}
+
+public interface BusInterfaceUnit {
+    // Fetch an instruction from memory
+    void fetchInstruction();
+
+    // Read data from memory
+    byte[] readMemory(int address, int size);
+
+    // Write data to memory
+    void writeMemory(int address, byte[] data);
+
+    // Reset the BIU
+    void reset();
+}
+
+public interface ExecutionUnit {
+    // Execute an arithmetic instruction
+    void executeArithmetic(int opcode, int operand1, int operand2, int resultRegister);
+
+    // Execute a logical instruction
+    void executeLogical(int opcode, int operand1, int operand2, int resultRegister);
+
+    // Execute a control flow instruction
+    void executeControlFlow(int opcode, int targetAddress);
+
+    // Reset the EU
+    void reset();
+}
+
+public interface FloatingPointUnit {
+    // Perform floating-point addition
+    float add(float operand1, float operand2);
+
+    // Perform floating-point subtraction
+    float subtract(float operand1, float operand2);
+
+    // Perform floating-point multiplication
+    float multiply(float operand1, float operand2);
+
+    // Perform floating-point division
+    float divide(float dividend, float divisor);
+
+    // Reset the FPU
+    void reset();
+}

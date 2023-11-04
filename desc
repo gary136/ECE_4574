@@ -1,0 +1,21 @@
+Control Unit (CU): The control unit manages and coordinates the operation of the CPU. It fetches instructions from memory, decodes them, and controls the execution of the instructions.
+
+Arithmetic Logic Unit (ALU): The ALU is responsible for performing arithmetic and logical operations. It can add, subtract, multiply, divide, compare values, and perform bitwise operations.
+
+Registers: Registers are small, high-speed storage locations within the CPU used for temporarily holding data and instructions during processing. Common types of registers include the program counter (PC), instruction register (IR), and general-purpose registers.
+
+Cache Memory: CPUs often have multiple levels of cache memory (L1, L2, L3). These caches store frequently accessed data and instructions to reduce the time it takes to access data from the main memory.
+
+Clock: The CPU is synchronized by a clock that generates regular pulses, controlling the timing of instructions and data transfers. Clock speed is measured in Hertz (Hz) and influences the CPU's processing speed.
+
+Data Bus: The data bus is a set of wires or lines that allow data to be transferred between the CPU and other components, such as RAM and I/O devices.
+
+Address Bus: The address bus is a set of wires or lines that carry memory addresses. It specifies the location in memory from which data is to be read or to which data is to be written.
+
+Instruction Set: The CPU has an instruction set, a predefined set of instructions that it can execute. These instructions include operations like addition, subtraction, branching, and data movement.
+
+Control Lines: These lines help manage the flow of data and control signals within the CPU and between the CPU and other components.
+
+Bus Interface Unit (BIU) and Execution Unit (EU): Some CPUs are organized into these two separate units, with the BIU responsible for fetching instructions and managing memory access, and the EU for executing instructions.
+
+Floating-Point Unit (FPU): In some CPUs, particularly those used for scientific and engineering calculations, there is a separate unit known as the FPU for handling floating-point arithmetic operations.

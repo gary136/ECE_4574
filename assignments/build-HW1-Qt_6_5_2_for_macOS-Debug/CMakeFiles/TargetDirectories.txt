@@ -1,0 +1,9 @@
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/HW1.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/install.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/HW1_autogen_timestamp_deps.dir
+/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW1-Qt_6_5_2_for_macOS-Debug/CMakeFiles/HW1_autogen.dir

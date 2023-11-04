@@ -1,0 +1,42 @@
+# ninja log v5
+57	1028	1697482217988440978	CMakeFiles/HW2.dir/flipcoder.cpp.o	72b7e5aba385fe9f
+308	1268	1697503471271771851	CMakeFiles/HW2.dir/HW2_autogen/mocs_compilation.cpp.o	913aac78f1d5fa07
+51	712	1697501792126543958	CMakeFiles/HW2.dir/otpcoder.cpp.o	dfb168c716da91f2
+12	50	1697504325534534977	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+1209	1438	1697504326919979506	HW2.app/Contents/MacOS/HW2	473e490786208d3d
+56	1209	1697504326687900762	CMakeFiles/HW2.dir/mainwindow.cpp.o	caecff98922e34f0
+57	1030	1697482217988497852	CMakeFiles/HW2.dir/invertcasecoder.cpp.o	8450dbffccff8010
+12	50	1697504325534534977	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+56	1131	1697503807628945562	CMakeFiles/HW2.dir/main.cpp.o	fc4e172f75f3f2
+12	50	1697504325534534977	HW2_autogen/timestamp	fe012ec2daf93c09
+18	25	0	clean	5b374111bb9a7f24
+0	18	0	CMakeFiles/clean.additional	eae1aa6bc365664d
+12	50	1697504325534534977	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+9	298	1697505298841311000	HW2_autogen/timestamp	fe012ec2daf93c09
+9	298	1697505298841311000	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+9	298	1697505298841311000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+9	298	1697505298841311000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+12	61	1697505463259872011	HW2_autogen/timestamp	fe012ec2daf93c09
+12	61	1697505463259872011	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+12	61	1697505463259872011	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+12	61	1697505463259872011	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+9	57	1697505485509413084	HW2_autogen/timestamp	fe012ec2daf93c09
+9	57	1697505485509413084	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+9	57	1697505485509413084	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+9	57	1697505485509413084	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+63	1247	1697505486694312631	CMakeFiles/HW2.dir/mainwindow.cpp.o	caecff98922e34f0
+13	48	1697505509206164000	HW2_autogen/timestamp	fe012ec2daf93c09
+13	48	1697505509206164000	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+13	48	1697505509206164000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+13	48	1697505509206164000	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+49	85	1697505509251477783	CMakeFiles/HW2.dir/base64coder.cpp.o	ab34d51558c26544
+48	769	1697505509931690227	CMakeFiles/HW2.dir/HW2_autogen/mocs_compilation.cpp.o	913aac78f1d5fa07
+49	1003	1697505510165005118	CMakeFiles/HW2.dir/mainwindow.cpp.o	caecff98922e34f0
+1003	1228	1697505510390575614	HW2.app/Contents/MacOS/HW2	8076d7e6b7577931
+12	53	1697507578494816234	HW2_autogen/timestamp	fe012ec2daf93c09
+12	53	1697507578494816234	HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+12	53	1697507578494816234	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	fe012ec2daf93c09
+12	53	1697507578494816234	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW2-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	fe012ec2daf93c09
+58	282	1697507578718138159	CMakeFiles/HW2.dir/base64coder.cpp.o	ab34d51558c26544
+58	1345	1697507579782131075	CMakeFiles/HW2.dir/mainwindow.cpp.o	caecff98922e34f0
+1345	1584	1697507580022909225	HW2.app/Contents/MacOS/HW2	8076d7e6b7577931

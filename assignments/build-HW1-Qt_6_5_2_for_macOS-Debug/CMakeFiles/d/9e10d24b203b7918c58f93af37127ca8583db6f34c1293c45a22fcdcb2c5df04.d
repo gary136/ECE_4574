@@ -1,0 +1,114 @@
+HW1_autogen/timestamp: \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/gary/Qt/6.5.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/CheckLibraryExists.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/Clang.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Compiler/GNU.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindPackageMessage.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/FindThreads.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/GNUInstallDirs.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/Darwin.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.24/Modules/Platform/UnixPaths.cmake \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/CMakeLists.txt \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/flipcoder.cpp \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/flipcoder.h \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/invertcasecoder.cpp \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/invertcasecoder.h \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/main.cpp \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/otpcoder.cpp \
+  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW1/otpcoder.h \
+  .qtc/package-manager/auto-setup.cmake \
+  CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.24.2/CMakeSystem.cmake \
+  /Users/gary/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

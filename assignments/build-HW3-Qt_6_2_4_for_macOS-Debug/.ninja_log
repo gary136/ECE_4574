@@ -1,0 +1,54 @@
+# ninja log v5
+54	1000	1699129472313590010	CMakeFiles/HW3.dir/mainwindow.cpp.o	f0fbb95bae1080a2
+396	1923	1699126731828827903	CMakeFiles/HW3.dir/main.cpp.o	bdcef470d1b239e8
+50	795	1699126839561537683	CMakeFiles/HW3.dir/HW3_autogen/mocs_compilation.cpp.o	d8824b068498b9d0
+570	2371	1699064161129738288	CMakeFiles/HW2.dir/HW2_autogen/mocs_compilation.cpp.o	72f10997d27622aa
+396	1479	1699126731383487603	CMakeFiles/HW3.dir/flipcoder.cpp.o	c1be911ab76310a
+12	48	1699129471367128954	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+396	1762	1699126731665273958	CMakeFiles/HW3.dir/otpcoder.cpp.o	73e925a743d10697
+12	48	1699129471367128954	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+1	570	1699064159324243877	HW2_autogen/mocs_compilation.cpp	4bb93beb970ac32c
+12	48	1699129471367128954	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+571	2762	1699064161520117681	CMakeFiles/HW2.dir/mainwindow.cpp.o	914d8c083c03bfa2
+12	48	1699129471367128954	HW3_autogen/timestamp	241f085e9d3eb703
+2763	3049	1699064161800757363	HW2.app/Contents/MacOS/HW2	8076d7e6b7577931
+396	1480	1699126731382751329	CMakeFiles/HW3.dir/invertcasecoder.cpp.o	fb9af42591e01862
+1000	1239	1699129472553318533	HW3.app/Contents/MacOS/HW3	9cd248f3767c7eed
+443	1317	1699123543415298200	CMakeFiles/HW3.dir/onetimepad.cpp.o	3fa6e1617425cbf0
+288	453	1699126830531139050	CMakeFiles/HW3.dir/base64coder.cpp.o	bb0af344c3499cd9
+572	1959	1699064160715529802	CMakeFiles/HW2.dir/otpcoder.cpp.o	af2a899fbb8a396f
+1	570	1699064159324243877	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW2_autogen/mocs_compilation.cpp	4bb93beb970ac32c
+573	648	1699064159411455010	CMakeFiles/HW2.dir/base64coder.cpp.o	14b7855d043679fe
+571	2608	1699064161367466179	CMakeFiles/HW2.dir/main.cpp.o	3b8d0c4bb6d5b7a3
+1	570	1699064159324243877	HW2_autogen/timestamp	4bb93beb970ac32c
+572	1945	1699064160687404597	CMakeFiles/HW2.dir/flipcoder.cpp.o	47a2626b51fa4c3c
+50	552	1699126839315935541	CMakeFiles/HW3.dir/coderfactory.cpp.o	a4821a70978b83cc
+572	1950	1699064160707920763	CMakeFiles/HW2.dir/invertcasecoder.cpp.o	44d21c459048a9fd
+1	570	1699064159324243877	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW2_autogen/timestamp	4bb93beb970ac32c
+9	48	1699130244267598458	HW3_autogen/timestamp	241f085e9d3eb703
+9	48	1699130244267598458	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+9	48	1699130244267598458	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+9	48	1699130244267598458	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+11	48	1699130558548037048	HW3_autogen/timestamp	241f085e9d3eb703
+11	48	1699130558548037048	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+11	48	1699130558548037048	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+11	48	1699130558548037048	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+10	48	1699130594795926447	HW3_autogen/timestamp	241f085e9d3eb703
+10	48	1699130594795926447	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+10	48	1699130594795926447	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+10	48	1699130594795926447	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+18	58	1699130663021482077	HW3_autogen/timestamp	241f085e9d3eb703
+18	58	1699130663021482077	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+18	58	1699130663021482077	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+18	58	1699130663021482077	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+64	800	1699130663758688399	CMakeFiles/HW3.dir/compositecoder.cpp.o	3fca6bb20e6c285e
+9	46	1699130707365104611	HW3_autogen/timestamp	241f085e9d3eb703
+9	46	1699130707365104611	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+9	46	1699130707365104611	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+9	46	1699130707365104611	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+10	48	1699130751513657060	HW3_autogen/timestamp	241f085e9d3eb703
+10	48	1699130751513657060	HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+10	48	1699130751513657060	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/timestamp	241f085e9d3eb703
+10	48	1699130751513657060	/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/mocs_compilation.cpp	241f085e9d3eb703
+53	1147	1699130752604335420	CMakeFiles/HW3.dir/mainwindow.cpp.o	f0fbb95bae1080a2
+1147	1377	1699130752838978338	HW3.app/Contents/MacOS/HW3	80797fad575530d1

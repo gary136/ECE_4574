@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bddb17acbd164affa953.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HW3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HW3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HW3-Debug-e122e476681f2320c63e.json",
+					"name" : "HW3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HW3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HW3_autogen-Debug-d2f46cbf86358f78afeb.json",
+					"name" : "HW3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HW3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HW3_autogen_timestamp_deps-Debug-f0792ff289010d055a54.json",
+					"name" : "HW3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/gary/US/virginia tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug",
+		"source" : "/Users/gary/US/virginia tech/courses/ECE_4574/assignments/HW3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
