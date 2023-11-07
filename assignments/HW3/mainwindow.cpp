@@ -12,6 +12,13 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    coders.push_back(CoderFactory::createCoder("Flip"));
+    coders.push_back(CoderFactory::createCoder("OTP"));
+    coders.push_back(CoderFactory::createCoder("InvertCase"));
+    coders.push_back(CoderFactory::createCoder("Base64"));
+    coders.push_back(CoderFactory::createCoder("Composite"));
+    coders.back()->addCoder(CoderFactory::createCoder("Flip"));
+    coders.back()->addCoder(CoderFactory::createCoder("OTP"));
     ui->setupUi(this);
 }
 
@@ -30,52 +37,63 @@ QString MainWindow::processInput(const std::string& input) {
     // Append the original input
     result += "<br><b>Input: &lt;" + QString::number(qInput.length()) + "&gt;[" + qInput + "]</b><br>";
 
-    // Test FlipCoder
-    Coder* flipCoder = CoderFactory::createCoder("Flip");
-    QString flipped = flipCoder->encode(qInput);
-    result += "<br>Flip Encoded: &lt;" + QString::number(flipped.length()) + "&gt;[" + flipped + "]<br>";
-    QString flippedDecoded = flipCoder->decode(flipped);
-    result += "Flip Decoded: &lt;" + QString::number(flippedDecoded.length()) + "&gt;[" + flippedDecoded + "]<br>";
+    for (Coder* coder : coders) {
+        QString coderType = coder->getName();
 
-    // Test OTPCoder
-    Coder* otpCoder = CoderFactory::createCoder("OTP");
-    QString otpEncoded = otpCoder->encode(qInput);
-    result += "<br>OTP Encoded: &lt;" + QString::number(otpEncoded.length()) + "&gt;[" + otpEncoded + "]<br>";
-    QString otpDecoded = otpCoder->decode(otpEncoded);
-    result += "OTP Decoded: &lt;" + QString::number(otpDecoded.length()) + "&gt;[" + otpDecoded + "]<br>";
+        // Encode the input using the current coder
+        QString encoded = coder->encode(qInput);
+        result += "<br>" + coderType + " Encoded: &lt;" + QString::number(encoded.length()) + "&gt;[" + encoded + "]<br>";
 
-    // Test InvertCaseCoder
-    Coder* invertCaseCoder = CoderFactory::createCoder("InvertCase");
-    QString invertCaseEncoded = invertCaseCoder->encode(qInput);
-    result += "<br>Invert Case Encoded: &lt;" + QString::number(invertCaseEncoded.length()) + "&gt;[" + invertCaseEncoded + "]<br>";
-    QString invertCaseDecoded = invertCaseCoder->decode(invertCaseEncoded);
-    result += "Invert Case Decoded: &lt;" + QString::number(invertCaseDecoded.length()) + "&gt;[" + invertCaseDecoded + "]<br>";
+        // Decode the encoded input using the same coder
+        QString decoded = coder->decode(encoded);
+        result += coderType + " Decoded: &lt;" + QString::number(decoded.length()) + "&gt;[" + decoded + "]<br>";
+    }
 
-    // Test Base64Coder
+//    // Test FlipCoder
+//    Coder* flipCoder = CoderFactory::createCoder("Flip");
+//    QString flipped = flipCoder->encode(qInput);
+//    result += "<br>Flip Encoded: &lt;" + QString::number(flipped.length()) + "&gt;[" + flipped + "]<br>";
+//    QString flippedDecoded = flipCoder->decode(flipped);
+//    result += "Flip Decoded: &lt;" + QString::number(flippedDecoded.length()) + "&gt;[" + flippedDecoded + "]<br>";
+
+//    // Test OTPCoder
+//    Coder* otpCoder = CoderFactory::createCoder("OTP");
+//    QString otpEncoded = otpCoder->encode(qInput);
+//    result += "<br>OTP Encoded: &lt;" + QString::number(otpEncoded.length()) + "&gt;[" + otpEncoded + "]<br>";
+//    QString otpDecoded = otpCoder->decode(otpEncoded);
+//    result += "OTP Decoded: &lt;" + QString::number(otpDecoded.length()) + "&gt;[" + otpDecoded + "]<br>";
+
+//    // Test InvertCaseCoder
+//    Coder* invertCaseCoder = CoderFactory::createCoder("InvertCase");
+//    QString invertCaseEncoded = invertCaseCoder->encode(qInput);
+//    result += "<br>Invert Case Encoded: &lt;" + QString::number(invertCaseEncoded.length()) + "&gt;[" + invertCaseEncoded + "]<br>";
+//    QString invertCaseDecoded = invertCaseCoder->decode(invertCaseEncoded);
+//    result += "Invert Case Decoded: &lt;" + QString::number(invertCaseDecoded.length()) + "&gt;[" + invertCaseDecoded + "]<br>";
+
+//    // Test Base64Coder
 //    Coder* base64Coder(pRESTTalker) = CoderFactory::createCoder("Base64"); // Initialize with your RESTTalker object
 //    QString base64Encoded = base64Coder->encode(qInput);
 //    result += "<br>Base64 Encoded: &lt;" + QString::number(base64Encoded.length()) + "&gt;[" + base64Encoded + "]<br>";
 //    QString base64Decoded = base64Coder->decode(base64Encoded);
 //    result += "Base64 Decoded: &lt;" + QString::number(base64Decoded.length()) + "&gt;[" + base64Decoded + "]<br>";
 
-    Coder* base64Coder = CoderFactory::createCoder("Flip");
-    QString base64Encoded = base64Coder->encode(qInput);
-    result += "<br>Base64 Encoded: &lt;" + QString::number(flipped.length()) + "&gt;[" + flipped + "]<br>";
-    QString base64Decoded = base64Coder->decode(base64Encoded);
-    result += "Base64 Decoded: &lt;" + QString::number(flippedDecoded.length()) + "&gt;[" + flippedDecoded + "]<br>";
+//    Coder* base64Coder = CoderFactory::createCoder("Flip");
+//    QString base64Encoded = base64Coder->encode(qInput);
+//    result += "<br>Base64 Encoded: &lt;" + QString::number(flipped.length()) + "&gt;[" + flipped + "]<br>";
+//    QString base64Decoded = base64Coder->decode(base64Encoded);
+//    result += "Base64 Decoded: &lt;" + QString::number(flippedDecoded.length()) + "&gt;[" + flippedDecoded + "]<br>";
 
-    // Create a CompositeCoder and add the FlipCoder and OTPCoder to it
-    CompositeCoder compositeCoder;
-//    Coder* flipCoder = CoderFactory::createCoder("Flip");
-//    Coder* otpCoder = CoderFactory::createCoder("OTP");
-    compositeCoder.addCoder(flipCoder);
-    compositeCoder.addCoder(otpCoder);
+//    // Create a CompositeCoder and add the FlipCoder and OTPCoder to it
+//    Coder* compositeCoder = CoderFactory::createCoder("Composite");
+//    compositeCoder->addCoder(flipCoder);
+//    compositeCoder->addCoder(otpCoder);
 
-    // Test the CompositeCoder
-    QString compositeEncoded = compositeCoder.encode(qInput);
-    result += "<br>Composite Encoded: &lt;" + QString::number(compositeEncoded.length()) + "&gt;[" + compositeEncoded + "]<br>";
-    QString compositeDecoded = compositeCoder.decode(compositeEncoded);
-    result += "Composite Decoded: &lt;" + QString::number(compositeDecoded.length()) + "&gt;[" + compositeDecoded + "]<br>";
+//    // Test the CompositeCoder
+//    QString compositeEncoded = compositeCoder->encode(qInput);
+//    result += "<br>Composite Encoded: &lt;" + QString::number(compositeEncoded.length()) + "&gt;[" + compositeEncoded + "]<br>";
+//    QString compositeDecoded = compositeCoder->decode(compositeEncoded);
+//    result += "Composite Decoded: &lt;" + QString::number(compositeDecoded.length()) + "&gt;[" + compositeDecoded + "]<br>";
+
     return result;
 }
 

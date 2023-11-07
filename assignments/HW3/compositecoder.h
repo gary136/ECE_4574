@@ -9,9 +9,12 @@ private:
     std::vector<Coder*> coders;
 
 public:
-    void addCoder(Coder* coder);
+    CompositeCoder(const QString& name);
+//    void addCoder(Coder* coder);
+    void addCoder(Coder* coder) override;
     QString encode(const QString& input) override;
     QString decode(const QString& input) override;
+    QString getName() const;
     ~CompositeCoder();
 };
 

@@ -1,5 +1,8 @@
 #include "compositecoder.h"
 
+CompositeCoder::CompositeCoder(const QString& name) : Coder(name) {
+}
+
 void CompositeCoder::addCoder(Coder* coder) {
     coders.push_back(coder);
 }
@@ -24,4 +27,8 @@ CompositeCoder::~CompositeCoder() {
     for (Coder* coder : coders) {
         delete coder;
     }
+}
+
+QString CompositeCoder::getName() const {
+    return Coder::getName();
 }

@@ -623,6 +623,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
+  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \

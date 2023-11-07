@@ -15,6 +15,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QScrollBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QTextEdit>
@@ -28,10 +29,11 @@ public:
     QWidget *centralwidget;
     QPushButton *processButton;
     QTextEdit *textEdit;
-    QTextBrowser *textBrowser;
     QPushButton *newOPTButton;
     QLabel *label;
     QTextBrowser *optBrowser;
+    QTextBrowser *textBrowser;
+    QScrollBar *verticalScrollBar;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -48,9 +50,6 @@ public:
         textEdit = new QTextEdit(centralwidget);
         textEdit->setObjectName(QString::fromUtf8("textEdit"));
         textEdit->setGeometry(QRect(160, 40, 571, 74));
-        textBrowser = new QTextBrowser(centralwidget);
-        textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(30, 210, 741, 321));
         newOPTButton = new QPushButton(centralwidget);
         newOPTButton->setObjectName(QString::fromUtf8("newOPTButton"));
         newOPTButton->setGeometry(QRect(30, 150, 100, 32));
@@ -60,6 +59,15 @@ public:
         optBrowser = new QTextBrowser(centralwidget);
         optBrowser->setObjectName(QString::fromUtf8("optBrowser"));
         optBrowser->setGeometry(QRect(180, 150, 551, 31));
+        textBrowser = new QTextBrowser(centralwidget);
+        textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
+        textBrowser->setGeometry(QRect(30, 210, 741, 321));
+        textBrowser->setMinimumSize(QSize(0, 321));
+        textBrowser->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
+        verticalScrollBar = new QScrollBar(centralwidget);
+        verticalScrollBar->setObjectName(QString::fromUtf8("verticalScrollBar"));
+        verticalScrollBar->setGeometry(QRect(750, 210, 20, 321));
+        verticalScrollBar->setOrientation(Qt::Vertical);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -86,8 +94,8 @@ public:
 "li.checked::marker { content: \"\\2612\"; }\n"
 "</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">THESE are the times that try men's souls.</p></body></html>", nullptr));
-        newOPTButton->setText(QCoreApplication::translate("MainWindow", "new OPT", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "OPT", nullptr));
+        newOPTButton->setText(QCoreApplication::translate("MainWindow", "new OTP", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "OTP", nullptr));
     } // retranslateUi
 
 };

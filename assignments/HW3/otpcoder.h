@@ -6,9 +6,10 @@
 
 class OTPCoder : public Coder {
 public:
-    OTPCoder();
+    OTPCoder(const QString& name);
     QString encode(const QString& input);
     QString decode(const QString& input);
+    QString getName() const;
 //    void regeneratePad();
 //    int getPadSize();
 //    int getPadValue(int i);

@@ -5,6 +5,7 @@
 #include "flipcoder.h"
 #include "otpcoder.h"
 #include "invertcasecoder.h"
+#include <vector>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,11 +18,9 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    std::vector<Coder*> coders;
     // Declare the processInput function
     QString processInput(const std::string& input);
-
-    // initiate an otpcoder
 
 private slots:
     void on_processButton_clicked();

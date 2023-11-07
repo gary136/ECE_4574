@@ -1,4 +1,4 @@
-/Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/EWIEGA46WW/moc_base64coder.cpp: /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/base64coder.h \
+/Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/EWIEGA46WW/moc_resttalker.cpp: /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/resttalker.h \
   /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h \
@@ -727,6 +727,4 @@
   /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslsocket.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtcpsocket.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetwork-config.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
-  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/Coder.h \
-  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/resttalker.h
+  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h

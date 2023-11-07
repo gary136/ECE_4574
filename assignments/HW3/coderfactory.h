@@ -6,6 +6,7 @@
 #include "flipcoder.h"
 #include "invertcasecoder.h"
 #include "otpcoder.h"
+#include "base64coder.h"
 
 class CoderFactory {
 public:

@@ -2,7 +2,7 @@
 #include "onetimepad.h"
 #include <QDebug>
 
-OTPCoder::OTPCoder() {
+OTPCoder::OTPCoder(const QString& name) : Coder(name) {
 //    padSize = 0;
 //    initializePad();
 //    No need to initialize the pad here; it will be managed by OneTimePad
@@ -57,10 +57,10 @@ QString OTPCoder::encode(const QString& input) {
                 encodedAscii -= 0x5E; // Bring it back into the range 0x20 to 0x7E
             }
             encoded += QChar(encodedAscii);
-            qDebug() << "Character: " << c << " Encoded as: " << QChar(encodedAscii);
+//            qDebug() << "Character: " << c << " Encoded as: " << QChar(encodedAscii);
         } else {
             encoded += c;
-            qDebug() << "Nonprintable Character: " << c << " Unchanged";
+//            qDebug() << "Nonprintable Character: " << c << " Unchanged";
         }
     }
     return encoded;
@@ -91,3 +91,6 @@ QString OTPCoder::decode(const QString& input) {
     return decoded;
 }
 
+QString OTPCoder::getName() const {
+    return Coder::getName();
+}

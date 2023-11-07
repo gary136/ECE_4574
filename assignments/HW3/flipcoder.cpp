@@ -1,5 +1,8 @@
 #include "flipcoder.h"
 
+FlipCoder::FlipCoder(const QString& name) : Coder(name) {
+}
+
 QString FlipCoder::encode(const QString& input) {
     QString encoded;
     for (const QChar& c : input) {
@@ -24,4 +27,8 @@ QString FlipCoder::decode(const QString& input) {
         }
     }
     return decoded;
+}
+
+QString FlipCoder::getName() const {
+    return Coder::getName();
 }

@@ -1,4 +1,4 @@
-/Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/EWIEGA46WW/moc_base64coder.cpp: /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/base64coder.h \
+/Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/EWIEGA46WW/moc_Coder.cpp: /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/Coder.h \
   /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/build-HW3-Qt_6_2_4_for_macOS-Debug/HW3_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h \
@@ -623,15 +623,8 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QFlags \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QIODevice \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QList \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QMetaType \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QSharedDataPointer \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QString \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QUrl \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -644,7 +637,6 @@
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
@@ -652,24 +644,16 @@
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qcryptographichash.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
@@ -684,14 +668,8 @@
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
@@ -701,32 +679,8 @@
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkAccessManager \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkReply \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkRequest \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslConfiguration \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslPreSharedKeyAuthenticator \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qhostaddress.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkaccessmanager.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkreply.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkrequest.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qssl.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslcertificate.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslconfiguration.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslerror.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslpresharedkeyauthenticator.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslsocket.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtcpsocket.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetwork-config.h \
-  /Users/gary/Qt/6.2.4/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
-  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/Coder.h \
-  /Users/gary/US/virginia\ tech/courses/ECE_4574/assignments/HW3/resttalker.h
+  /Users/gary/Qt/6.2.4/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h
